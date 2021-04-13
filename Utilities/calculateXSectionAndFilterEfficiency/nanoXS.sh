@@ -104,8 +104,8 @@ TotalPos_output=$(printf "%10.0f" $TotalPos_sum)
 TotalNeg_output=$(printf "%10.0f" $TotalNeg_sum)
 PassPos_output=$(printf "%10.0f" $PassPos_sum)
 PassNeg_output=$(printf "%10.0f" $PassNeg_sum)
-echo 'Total Positive events number before matching:' $TotalPos_output
-echo 'Total Negative events number before matching:' $TotalNeg_output
+echo 'Total Positive events number before matching and filter:' $TotalPos_output
+echo 'Total Negative events number before matching and filter:' $TotalNeg_output
 echo 'Total Positive events number after matching and filter:' $PassPos_output
 echo 'Total Negative events number after matching and filter:' $PassNeg_output
 
